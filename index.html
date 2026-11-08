@@ -42,6 +42,8 @@
   </main>
   <script>
     (function () {
+      var d = new URL(location.href).searchParams.get('decalage');
+      if (d !== null && /^\d{1,3}$/.test(d)) document.documentElement.style.setProperty('--bandeau', d + 'px');
       var c = document.getElementById('chargement');
       document.getElementById('formulaire').addEventListener('load', function () { c.hidden = true; });
       /* Réseau lent ou cadre bloqué : lien direct vers le formulaire après 15 secondes. */
