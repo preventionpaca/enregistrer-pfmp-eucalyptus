@@ -1,5 +1,5 @@
-# Déclarer mon entreprise de stage (PFMP)
+# Enregistrer ma PFMP
 
-Redirection publiée à l'adresse https://enregistrer-pfmp.lycee-les-eucalyptus.org
-vers le formulaire « Déclarer mon entreprise » de la Web App publique verte Eucalyptus PFMP
-(accès sans compte, page élèves). Lien à mettre dans Atrium.
+Page d'accueil publiée à l'adresse https://enregistrer-pfmp.lycee-les-eucalyptus.org (lien Atrium).
+Elle affiche dans un cadre le formulaire « Enregistrer ma PFMP » de la Web App publique verte Eucalyptus PFMP
+(accès sans compte) et masque le bandeau Google Apps Script.
